@@ -3,7 +3,7 @@ name: build pipeline
 on: push
 
 jobs:
-   docker:
+     docker:
      runs-on: ubuntu-latest
      steps:
        -
